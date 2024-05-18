@@ -8,7 +8,9 @@ const ListItem = ({ data, c }) => {
   return (
     <li
       className={`${
-        c && "border-b border-gray-400 my-8 text-lg uppercase font-light"
+        c
+          ? "border-b border-gray-400 my-8 text-lg uppercase font-light opacity-fade"
+          : "opacity-fade"
       }`}
     >
       <Link
@@ -44,7 +46,7 @@ const Header = () => {
             className="space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <AiOutlineMenu size={20} />
+            <AiOutlineMenu size={20} className="cursor-pointer" />
           </div>
 
           <div
@@ -56,7 +58,7 @@ const Header = () => {
               className="absolute top-0 right-0 px-8 py-9"
               onClick={() => setIsNavOpen(false)}
             >
-              <AiOutlineClose size={20} />
+              <AiOutlineClose size={20} className="cursor-pointer" />
             </div>
             <ul className="flex flex-col text-white items-center justify-between min-h-[250px]">
               <ListItem data={"Home"} c />
