@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-Black.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-BlackItalic.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Italic') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../src/fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../src/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../src/fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

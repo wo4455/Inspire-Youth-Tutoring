@@ -8,10 +8,10 @@ const App = () => {
   return (
     <>
       <Header />
-      {/* <main>
+      <main>
         <Outlet /> {/* This renders the matching child route */}
-      {/* </main>
-      <Footer /> */}
+      </main>
+      <Footer />
     </>
   );
 };

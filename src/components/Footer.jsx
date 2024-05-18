@@ -1,7 +1,22 @@
 import React from "react";
 
-function Footer() {
-  return <div>Footer</div>;
-}
+const Footer = () => {
+  return (
+    <div className="flex flex-col m-auto md:flex-row md:justify-between w-full text-left pt-7 md:pb-28 border-t border-gray-400">
+      <h1 className="text-2xl md:text-3xl mb-6 font-georgia">
+        INSPIRE YOUTH TUTORING
+      </h1>
+      <div className="md:flex md:flex-row">
+        <div className="text-xs mb-6 md:mr-20 font-open_sans font-light">
+          <p className="mb-1">123-456-7890</p>
+          <p>info@mysite.com</p>
+        </div>
+        <p className="md:mr-20 text-xs font-open_sans font-light">
+          Chicago, IL, USA
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export default Footer;

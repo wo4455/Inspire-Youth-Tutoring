@@ -2,12 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-    },
+    // screens: {
+    //   sm: "480px",
+    //   md: "768px",
+    //   lg: "976px",
+    //   xl: "1440px",
+    // },
     colors: {
       blue: "#1fb6ff",
       purple: "#7e5bef",
@@ -20,8 +20,9 @@ module.exports = {
       "gray-light": "#d3dce6",
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      merriweather: ["Merriweather", "serif"], // sans
+      georgia: ["Georgia", "serif"], // serif
+      open_sans: ["Open Sans", "serif"],
     },
     extend: {
       spacing: {

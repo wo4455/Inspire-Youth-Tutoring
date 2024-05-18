@@ -5,38 +5,54 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showMenuNav {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hideMenuNav {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  /* To make it non-interactive when hidden */
+  transition: opacity 0.2s ease-in-out;
 }
 
-.card {
-  padding: 2em;
+.smooth:hover {
+  background-color: black;
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+.smooth-2 {
+  background-color: rgb(0 0 0);
+  color: white;
+}
+.smooth-2:hover {
+  background-color: white;
+  color: black;
+}
+
+body.no-scroll {
+  overflow: hidden;
 }
