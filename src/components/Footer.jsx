@@ -7,11 +7,11 @@ const Footer = () => {
         INSPIRE YOUTH TUTORING
       </h1>
       <div className="md:flex md:flex-row">
-        <div className="text-xs mb-6 md:mr-20 font-open_sans font-light">
+        <div className="text-sm mb-6 md:mr-20 font-open_sans font-light">
           <p className="mb-1">(312)-758-0552</p>
           <p>hstutoring001@gmail.com</p>
         </div>
-        <p className="md:mr-20 text-xs font-open_sans font-light">
+        <p className="md:mr-20 text-sm font-open_sans font-light">
           Chicago, IL, USA
         </p>
       </div>

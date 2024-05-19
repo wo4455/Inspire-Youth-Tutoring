@@ -9,7 +9,7 @@ const ListItem = ({ title, desc, otherStyles }) => {
     <div className="flex flex-col items-start text-left md:flex-row md:justify-between md:w-full">
       <h3 className="text-xl font-open_sans font-light italic mb-5">{title}</h3>
       <p
-        className={`${otherStyles} leading-7 text-sm font-open_sans font-light mb-5 md:w-8/12`}
+        className={`${otherStyles} leading-7 text-lg font-open_sans font-light mb-5 md:w-8/12`}
       >
         {desc}
       </p>

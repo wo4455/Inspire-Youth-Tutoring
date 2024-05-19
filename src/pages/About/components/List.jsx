@@ -40,9 +40,9 @@ const List = () => {
         }
       />
       <ListItem
-        title={"Delivery Methods"}
+        title={"Tutor Qualifications"}
         desc={
-          "Our tutoring sessions are designed to be convenient and accessible. We offer in-person and online one-on-one tutoring, as well as online group sessions, ensuring that every student can find a format that works best for them."
+          "Our tutors undergo a rigorous selection process to ensure top-quality support. They must have a minimum unweighted GPA of 3.8, and a weighted GPA of 4.6. They must also have a minimum SAT score of 1300 or an ACT score of 30. Additionally, their character and communication skills are assessed through a personal interview to ensure they have the patience, empathy, and ability to effectively engage with younger students."
         }
       />
       <ListItem
