@@ -39,7 +39,7 @@ const Details = () => {
         <h3 className="text-xl font-open_sans font-light italic mb-5">
           Social Media
         </h3>
-        <div className="flex mb-5 md:w-8/12">
+        <div className="flex mb-10 md:w-8/12">
           <a href="http://facebook.com" target="_blank">
             <FaFacebook
               size={25}

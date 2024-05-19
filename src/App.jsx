@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Header />
       <main>
-        <Outlet /> {/* This renders the matching child route */}
+        <Outlet />
       </main>
       <Footer />
     </>
