@@ -8,8 +8,8 @@ const Footer = () => {
       </h1>
       <div className="md:flex md:flex-row">
         <div className="text-xs mb-6 md:mr-20 font-open_sans font-light">
-          <p className="mb-1">123-456-7890</p>
-          <p>info@mysite.com</p>
+          <p className="mb-1">(312)-758-0552</p>
+          <p>hstutoring001@gmail.com</p>
         </div>
         <p className="md:mr-20 text-xs font-open_sans font-light">
           Chicago, IL, USA
