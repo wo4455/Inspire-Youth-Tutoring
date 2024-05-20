@@ -1,5 +1,7 @@
 import React from "react";
-import video from "../assets/h_video.mp4";
+import video_high from "../assets/h_video_high.mp4";
+import video_med from "../assets/h_video_med.mp4";
+import video_low from "../assets/h_video_low.mp4";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -11,7 +13,21 @@ const Hero = () => {
         </h1>
         <div className="w-full mb-4 md:mb-8">
           <video className="w-full" autoPlay loop muted>
-            <source src={video} type="video/mp4" />
+            <source
+              src={video_low}
+              type="video/mp4"
+              media="(max-width: 480px)"
+            />
+            <source
+              src={video_med}
+              type="video/mp4"
+              media="(max-width: 768px)"
+            />
+            <source
+              src={video_high}
+              type="video/mp4"
+              media="(min-width: 769px)"
+            />
           </video>
         </div>
         <div className="flex flex-col items-start md:flex-row md:justify-between md:items-center ">
