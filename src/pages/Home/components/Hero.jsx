@@ -1,22 +1,22 @@
 import React from "react";
-// import video_high from "../assets/h_video_high.mp4";
-// import video_med from "../assets/h_video_med.mp4";
-import video_low from "../assets/h_video_low.mp4";
 import { Link } from "react-router-dom";
+import heroPhoto from "../assets/h_photo_1.jpg";
 
 const Hero = () => {
   return (
     <div className="container mx-auto pt-8">
       <section className="text-left">
-        <h1 className="text-4xl md:text-8xl font-georgia mb-4">
+        <h1 className="w-3/4 m-auto text-4xl md:text-6xl lg:text-8xl font-georgia mb-4">
           EMPOWERING STUDENTS
         </h1>
-        <div className="w-full mb-4 md:mb-8">
-          <video className="w-full" autoPlay loop muted>
-            <source src={video_low} type="video/mp4" />
-          </video>
+        <div className="w-3/4 mb-4 md:mb-8 mx-auto">
+          <img
+            className="w-full m-auto"
+            src={heroPhoto}
+            alt="Photo of a Girl Doing Homework."
+          />
         </div>
-        <div className="flex flex-col items-start md:flex-row md:justify-between md:items-center ">
+        <div className="flex flex-col items-start md:flex-row md:justify-between md:items-center w-3/4 m-auto">
           <div className="text-xl mb-4 md:mb-8">
             <p className="italic font-open_sans font-light">
               Tutoring Services
