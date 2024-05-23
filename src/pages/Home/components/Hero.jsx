@@ -6,17 +6,17 @@ const Hero = () => {
   return (
     <div className="container mx-auto pt-8">
       <section className="text-left">
-        <h1 className="w-3/4 m-auto text-4xl md:text-6xl lg:text-8xl font-georgia mb-4">
+        <h1 className="md:w-3/4 m-auto text-4xl md:text-6xl lg:text-8xl font-georgia mb-4">
           EMPOWERING STUDENTS
         </h1>
-        <div className="w-3/4 mb-4 md:mb-8 mx-auto">
+        <div className="md:w-3/4 mb-4 md:mb-8 mx-auto">
           <img
             className="w-full m-auto"
             src={heroPhoto}
             alt="Photo of a Girl Doing Homework."
           />
         </div>
-        <div className="flex flex-col items-start md:flex-row md:justify-between md:items-center w-3/4 m-auto">
+        <div className="flex flex-col items-start md:flex-row md:justify-between md:items-center md:w-3/4 m-auto">
           <div className="text-xl mb-4 md:mb-8">
             <p className="italic font-open_sans font-light">
               Tutoring Services
