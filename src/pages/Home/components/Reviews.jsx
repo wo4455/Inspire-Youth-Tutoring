@@ -37,27 +37,27 @@ const Reviews = () => {
           quote={
             '"My daughter was struggling with math, but after just a few sessions with her high school tutor, she gained confidence and improved her grades significantly. The personalized attention and relatable teaching made a huge difference!" '
           }
-          author={"Jennifer Anderson"}
+          author={"Jefferson Ford"}
           left
         />
         <Review
           quote={
             "\"I was amazed at how quickly my son's understanding of science concepts improved. His high school tutor was patient, knowledgeable, and able to explain things in a way that really clicked for him. We're so grateful for this fantastic tutoring service!\""
           }
-          author={"Robert Johnson"}
+          author={"Clarice Chen"}
         />
         <Review
           quote={
             "\"The improvement in my child's reading and writing skills has been incredible. The high school tutor was not only supportive but also made learning enjoyable for my son. I couldn't be happier with the results!\""
           }
-          author={"Emily Thompson"}
+          author={"Jimmy Richardson"}
           left
         />
         <Review
           quote={
             '"Our daughter used to dread homework time, but now she looks forward to her tutoring sessions. The high school tutors are enthusiastic and know how to connect with younger students. We\'ve seen a dramatic improvement in her grades and attitude toward school."'
           }
-          author={"Michael Williams"}
+          author={"Gabriel Herring"}
         />
       </section>
     </div>
